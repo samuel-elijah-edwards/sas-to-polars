@@ -73,6 +73,7 @@ help(sas_to_polars)
 
 ### Example Dataset Output
 
+```text
 Shape: (3, 3)
 ┌─────┬─────────┬──────┐
 │ id  ┆ name    ┆ age  │
@@ -83,7 +84,7 @@ Shape: (3, 3)
 │ 2.0 ┆ Bob     ┆ 35.0 │
 │ 3.0 ┆ Charlie ┆ 40.0 │
 └─────┴─────────┴──────┘
-
+```
 ---
 
 ## License

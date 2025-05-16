@@ -12,11 +12,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",  # Or your chosen license
     "Operating System :: OS Independent",
-    "Topic :: Software Development :: Libraries",
-    "Topic :: Scientific/Engineering :: Information Analysis",
 ]
 readme = "README.md"
 requires-python = ">=3.10"
+license = { file="LICENSE" }
 dependencies = [
     "pyreadstat>=0.12.0",
     "polars>=0.20.0",
@@ -29,3 +28,7 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/samuel-elijah-edwards/sas-to-polars"
+"Bug Tracker" = "https://github.com/samuel-elijah-edwards/sas-to-polars/issues"
